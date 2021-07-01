@@ -255,7 +255,6 @@ const html = ReactDOMServer.renderToString(
   const html = ReactDOMServer.renderToString(
   const html = ReactDOMServer.renderToString(
   const html = ReactDOMServer.renderToString(
-  const html = ReactDOMServer.renderToString(
   -// Create a sheets instance.
 ```
 
@@ -283,7 +282,6 @@ function handleRender(req, res) {
   //…
 
   // Render the component to a string.
-  const html = ReactDOMServer.renderToString(
   const html = ReactDOMServer.renderToString(
   const html = ReactDOMServer.renderToString(
   const html = ReactDOMServer.renderToString(

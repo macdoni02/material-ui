@@ -1,5 +1,5 @@
 ---
-title: Composant React Table
+title: React Table component
 components: Table, TableBody, TableCell, TableContainer, TableFooter, TableHead, TablePagination, TableRow, TableSortLabel
 ---
 
@@ -17,7 +17,7 @@ Tables can include:
 
 Lorsque des outils sont inclus, ils doivent être placés directement au-dessus ou au-dessous de la table.
 
-## Tableau de base
+## Structure
 
 Un exemple simple et sans fioritures.
 
@@ -101,7 +101,7 @@ Dans l'exemple suivant, nous montrons comment utiliser [react-virtualized](https
 
 (WAI tutorial: https://www.w3.org/WAI/tutorials/tables/)
 
-### Légende
+### Caption
 
 A caption functions like a heading for a table. Most screen readers announce the content of captions. Captions help users to find a table and understand what it’s about and decide if they want to read it.
 

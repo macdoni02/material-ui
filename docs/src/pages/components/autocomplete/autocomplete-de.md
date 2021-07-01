@@ -227,17 +227,10 @@ Zusätzlich zur Speicherung der eingegebenen Werte kann der Browser aber auch **
 - Name the input without leaking any information the browser can use. e.g. `id="field1"` instead of `id="country"`. Wenn Sie die ID leer lassen, verwendet die Komponente eine zufällige ID.
 - Setze `autoComplete="neues Passwort"`: jsx Setze `autoComplete="neues Passwort": 
 jsx` Setze `autoComplete="neues Passwort": 
-jsx` Setze `autoComplete="neues Passwort": 
     jsx` Setze `autoComplete="neues Passwort": 
         jsx` 
-        jsx
-        <TextField
-        {...params}
-        inputProps={{
-          ...params.inputProps,
-          autoComplete: 'new-password',
-        }}
-        />
+        Setze <code>autoComplete="neues Passwort": 
+            jsx</code>
 
 ### iOS VoiceOver
 

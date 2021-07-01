@@ -1,5 +1,5 @@
 ---
-title: Bloques de elementos de texto
+title: React Grid component
 components: Grid
 ---
 

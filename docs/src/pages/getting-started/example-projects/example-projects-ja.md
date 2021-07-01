@@ -4,7 +4,7 @@
 
 ## Official examples
 
-[GitHubリポジトリ](https://github.com/mui-org/material-ui)の[`/examples`](https://github.com/mui-org/material-ui/tree/master/examples)フォルダにいくつかのサンプルプロジェクトを用意しています。
+You can find some example projects in the [GitHub repository](https://github.com/mui-org/material-ui) under the [`/examples`](https://github.com/mui-org/material-ui/tree/master/examples) folder:
 
 - [Create React App](https://github.com/mui-org/material-ui/tree/master/examples/create-react-app)
 - [Gatsby](https://github.com/mui-org/material-ui/tree/master/examples/gatsby)
@@ -14,13 +14,13 @@
 - [Plain server-side](https://github.com/mui-org/material-ui/tree/master/examples/ssr)
 - E mais
 
-Create React AppはReactを学ぶのに良いプロジェクトです。 どのプロジェクトが自分のニーズに最も適しているか知る為に[利用可能な代替案](https://github.com/facebook/create-react-app/blob/master/README.md#popular-alternatives)をみてみてください。
+Create React AppはReactを学ぶのに良いプロジェクトです。 Create React AppはReactを学ぶのに良いプロジェクトです。 どのプロジェクトが自分のニーズに最も適しているか知る為に[利用可能な代替案](https://github.com/facebook/create-react-app/blob/master/README.md#popular-alternatives)をみてみてください。 Create React AppはReactを学ぶのに良いプロジェクトです。 どのプロジェクトが自分のニーズに最も適しているか知る為に[利用可能な代替案](https://github.com/facebook/create-react-app/blob/master/README.md#popular-alternatives)をみてみてください。 Create React AppはReactを学ぶのに良いプロジェクトです。 どのプロジェクトが自分のニーズに最も適しているか知る為に[利用可能な代替案](https://github.com/facebook/create-react-app/blob/master/README.md#popular-alternatives)をみてみてください。 Create React AppはReactを学ぶのに良いプロジェクトです。 どのプロジェクトが自分のニーズに最も適しているか知る為に[利用可能な代替案](https://github.com/facebook/create-react-app/blob/master/README.md#popular-alternatives)をみてみてください。
 
-このドキュメントサイトのソースコードもリポジトリに含まれています。 少しだけ複雑なプロジェクトです。 [`/docs`](https://github.com/mui-org/material-ui/tree/master/docs)フォルダのビルド手順を確認してください。
+このドキュメントサイトのソースコードもリポジトリに含まれています。 少しだけ複雑なプロジェクトです。 このドキュメントサイトのソースコードもリポジトリに含まれています。 少しだけ複雑なプロジェクトです。 このドキュメントサイトのソースコードもリポジトリに含まれています。 少しだけ複雑なプロジェクトです。 このドキュメントサイトのソースコードもリポジトリに含まれています。 少しだけ複雑なプロジェクトです。 このドキュメントサイトのソースコードもリポジトリに含まれています。 少しだけ複雑なプロジェクトです。 [`/docs`](https://github.com/mui-org/material-ui/tree/master/docs)フォルダのビルド手順を確認してください。
 
 ## 更に高度なサンプルプロジェクト
 
-より完全で現実的な例から始めたい場合 [プレミアムテーマ & テンプレート](https://material-ui.com/store/?utm_source=docs&utm_medium=referral&utm_campaign=example-projects-store) をご覧ください:
+If you want to start with a more complete and real-world example, you could take a look at the [premium themes & templates](https://material-ui.com/store/?utm_source=docs&utm_medium=referral&utm_campaign=example-projects-store) or:
 
 ### Gratuit
 
@@ -30,7 +30,7 @@ Create React AppはReactを学ぶのに良いプロジェクトです。 どの�
   - 単一のCLIコマンドで新しいプロジェクトを開始するカスタムCreate React Appスクリプト
   - 公式のFirebase Web Auth UIを使用した認証を含むFirebase用のビルド
   - エラー処理（404）および遅延ロードを含むReact Routerによるルーティング
-  - すべてのPWA機能が含まれています（SW、通知、遅延インストールプロンプトなど）
+  - All PWA features included (SW, Notifications, deferred installation prompt and more)
   - 最適化されたスケーラブルなパフォーマンス（すべてLighthouseで最大100ポイント）
 - [RMUIF](https://github.com/phoqe/rmuif):
     

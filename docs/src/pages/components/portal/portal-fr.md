@@ -1,5 +1,5 @@
 ---
-title: Composant React Portal
+title: React Portal component
 components: Portal
 ---
 

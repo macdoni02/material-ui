@@ -1,5 +1,5 @@
 ---
-title: Composant React Divider
+title: React Divider component
 components: Divider
 ---
 
@@ -11,7 +11,7 @@ components: Divider
 
 ## Liste diviseurs
 
-Par défaut, le diviseur est rendu comme un `<hr>`. Vous pouvez enregistrer le rendu de cet élément DOM en utilisant la propriété `divider` sur le composant `ListItem`.
+Par défaut, le diviseur est rendu comme un `<hr>`. You can save rendering this DOM element by using the `divider` property on the `ListItem` component.
 
 {{"demo": "pages/components/dividers/ListDividers.js", "bg": true}}
 
@@ -31,8 +31,8 @@ Dans une liste, vous devez vous assurer que le `Divider` est rendu en tant que `
 
 {{"demo": "pages/components/dividers/MiddleDividers.js", "bg": true}}
 
-## Séparateurs verticaux
+## Vertical Dividers
 
-Vous pouvez également rendre un séparateur verticalement en utilisant la propriété `orientation`. Notez l'utilisation de l'accessoire `flexItem` pour accueillir le conteneur flex.
+Vous pouvez également rendre un séparateur verticalement en utilisant la propriété `orientation`. Note the use of the `flexItem` prop to accommodate for the flex container.
 
 {{"demo": "pages/components/dividers/VerticalDividers.js", "bg": true}}

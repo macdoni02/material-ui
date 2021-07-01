@@ -1,5 +1,5 @@
 ---
-title: Composant React Stepper
+title: React Stepper component
 components: MobileStepper, Step, StepButton, StepConnector, StepContent, StepIcon, StepLabel, Stepper
 ---
 
@@ -16,7 +16,7 @@ components: MobileStepper, Step, StepButton, StepConnector, StepContent, StepIco
 
 ## Horizontal Stepper
 
-### Barre de progression linéaire
+### Linear
 
 The `Stepper` can be controlled by passing the current step index (zero-based) as the `activeStep` property. `Stepper` orientation is set using the `orientation` property.
 

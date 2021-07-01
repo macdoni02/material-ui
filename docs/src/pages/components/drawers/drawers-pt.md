@@ -1,5 +1,5 @@
 ---
-title: Componente Drawer para React
+title: Componente React Drawer
 components: Drawer, SwipeableDrawer
 ---
 

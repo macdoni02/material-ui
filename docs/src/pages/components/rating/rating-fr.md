@@ -1,5 +1,5 @@
 ---
-title: Composant d'évaluation de réaction
+title: React Rating component
 components: Rating (Notation)
 ---
 

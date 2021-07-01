@@ -1,5 +1,5 @@
 ---
-title: Composant React Sider
+title: React Slider component
 components: Slider
 ---
 

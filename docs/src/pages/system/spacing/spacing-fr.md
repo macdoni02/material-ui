@@ -1,31 +1,31 @@
 # Ecartement
 
-<p class="description">Une large gamme de classes utilitaires de marge réactive et de remplissage pour modifier l'apparence d'un élément.</p>
+<p class="description">A wide range of shorthand responsive margin and padding utility classes to modify an element’s appearance.</p>
 
 ## Notation
 
-L'utilitaire space convertit les marges abrégées et les accessoires de remplissage en déclarations CSS de marge et de remplissage. Les accessoires sont nommés au format `{property}{sides}`.
+The space utility converts shorthand margin and padding props to margin and padding CSS declarations. The props are named using the format `{property}{sides}`.
 
-Où *propriété* correspond à :
+Where *property* is one of:
 
-- `m` - pour les classes qui définissent une *marge*
-- `p` - pour les classes qui définissent le *padding*
+- `m` - for classes that set *margin*
+- `p` - for classes that set *padding*
 
-Où *côtés* est l'un des :
+Where *sides* is one of:
 
-- `t` - pour les classes qui définissent *margin-top* ou *padding-top*
-- `b` - pour les classes qui définissent *margin-bottom* ou *padding-bottom*
-- `l` - pour les classes qui définissent *margin-left* ou *padding-left*
-- `r` - pour les classes qui définissent *margin-right* ou *padding-right*
-- `x` - pour les classes qui définissent à la fois **-left* et **-right*
-- `y` - pour les classes qui définissent à la fois **-top* et **-bottom*
-- vide - pour les classes qui définissent une marge ou un remplissage sur les 4 côtés de l'élément
+- `t` - for classes that set *margin-top* or *padding-top*
+- `b` - for classes that set *margin-bottom* or *padding-bottom*
+- `l` - for classes that set *margin-left* or *padding-left*
+- `r` - for classes that set *margin-right* or *padding-right*
+- `x` - for classes that set both **-left* and **-right*
+- `y` - for classes that set both **-top* and **-bottom*
+- blank - for classes that set a margin or padding on all 4 sides of the element
 
 ## Transformation
 
-En fonction de l'entrée et de la configuration du thème, la transformation suivante est appliquée :
+Depending on the input and the theme configuration, the following transformation is applied:
 
-- entrée : `numéro` & theme : `nombre` : la propriété est multipliée par la valeur du thème.
+- input: `number` & theme: `number`: the property is multiplied by the theme value.
 
 ```jsx
 const theme = {
@@ -38,7 +38,7 @@ const theme = {
 <Box m={2} /> // margin: 16px;
 ```
 
-- entrée : `numéro` & thème : `tableau` : la propriété est la valeur est utilisée comme index du tableau.
+- input: `number` & theme: `array`: the property is value is used as the array index.
 
 ```jsx
 const theme = {
@@ -50,7 +50,7 @@ const theme = {
 <Box m={2} /> // margin: 3px;
 ```
 
-- entrée : `numéro` & thème : `fonction` : la fonction est appelée avec la valeur de la propriété.
+- input: `number` & theme: `function`: the function is called with the property value.
 
 ```jsx
 const theme = {
@@ -61,7 +61,7 @@ const theme = {
 <Box m={2} /> // margin: 4px;
 ```
 
-- input : `string` : la propriété est passée en tant que valeur CSS brute.
+- input: `string`: the property is passed as raw CSS value.
 
 ```jsx
 <Box m="2rem" /> // margin: 2rem;
@@ -78,7 +78,7 @@ const theme = {
 <Box p={2}>…
 ```
 
-## Centrage horizontal
+## Horizontal centering
 
 {{"demo": "pages/system/spacing/HorizontalCentering.js", "defaultCodeOpen": false, "bg": true}}
 
@@ -92,25 +92,25 @@ const theme = {
 import { spacing } from '@material-ui/system';
 ```
 
-| Nom d'importation | Prop | Propriété CSS                   | Clé du thème                                                     |
-|:----------------- |:---- |:------------------------------- |:---------------------------------------------------------------- |
-| `spacing`         | `m`  | `margin`                        | [`spacing`](/customization/default-theme/?expand-path=$.spacing) |
-| `spacing`         | `mt` | `margin-top`                    | [`spacing`](/customization/default-theme/?expand-path=$.spacing) |
-| `spacing`         | `mr` | `margin-right`                  | [`spacing`](/customization/default-theme/?expand-path=$.spacing) |
-| `spacing`         | `mb` | `margin-bottom`                 | [`spacing`](/customization/default-theme/?expand-path=$.spacing) |
-| `spacing`         | `ml` | `margin-left`                   | [`spacing`](/customization/default-theme/?expand-path=$.spacing) |
-| `spacing`         | `mx` | `margin-left`, `margin-right`   | [`spacing`](/customization/default-theme/?expand-path=$.spacing) |
-| `spacing`         | `my` | `margin-top`, `margin-bottom`   | [`spacing`](/customization/default-theme/?expand-path=$.spacing) |
-| `spacing`         | `p`  | `padding`                       | [`spacing`](/customization/default-theme/?expand-path=$.spacing) |
-| `spacing`         | `pt` | `padding-top`                   | [`spacing`](/customization/default-theme/?expand-path=$.spacing) |
-| `spacing`         | `pr` | `padding-right`                 | [`spacing`](/customization/default-theme/?expand-path=$.spacing) |
-| `spacing`         | `pb` | `padding-bottom`                | [`spacing`](/customization/default-theme/?expand-path=$.spacing) |
-| `spacing`         | `pl` | `padding-left`                  | [`spacing`](/customization/default-theme/?expand-path=$.spacing) |
-| `spacing`         | `px` | `padding-left`, `padding-right` | [`spacing`](/customization/default-theme/?expand-path=$.spacing) |
-| `spacing`         | `py` | `padding-top`, `padding-bottom` | [`spacing`](/customization/default-theme/?expand-path=$.spacing) |
+| Import name | Prop | Propriété CSS                   | Clé du thème                                                     |
+|:----------- |:---- |:------------------------------- |:---------------------------------------------------------------- |
+| `spacing`   | `m`  | `margin`                        | [`spacing`](/customization/default-theme/?expand-path=$.spacing) |
+| `spacing`   | `mt` | `margin-top`                    | [`spacing`](/customization/default-theme/?expand-path=$.spacing) |
+| `spacing`   | `mr` | `margin-right`                  | [`spacing`](/customization/default-theme/?expand-path=$.spacing) |
+| `spacing`   | `mb` | `margin-bottom`                 | [`spacing`](/customization/default-theme/?expand-path=$.spacing) |
+| `spacing`   | `ml` | `margin-left`                   | [`spacing`](/customization/default-theme/?expand-path=$.spacing) |
+| `spacing`   | `mx` | `margin-left`, `margin-right`   | [`spacing`](/customization/default-theme/?expand-path=$.spacing) |
+| `spacing`   | `my` | `margin-top`, `margin-bottom`   | [`spacing`](/customization/default-theme/?expand-path=$.spacing) |
+| `spacing`   | `p`  | `padding`                       | [`spacing`](/customization/default-theme/?expand-path=$.spacing) |
+| `spacing`   | `pt` | `padding-top`                   | [`spacing`](/customization/default-theme/?expand-path=$.spacing) |
+| `spacing`   | `pr` | `padding-right`                 | [`spacing`](/customization/default-theme/?expand-path=$.spacing) |
+| `spacing`   | `pb` | `padding-bottom`                | [`spacing`](/customization/default-theme/?expand-path=$.spacing) |
+| `spacing`   | `pl` | `padding-left`                  | [`spacing`](/customization/default-theme/?expand-path=$.spacing) |
+| `spacing`   | `px` | `padding-left`, `padding-right` | [`spacing`](/customization/default-theme/?expand-path=$.spacing) |
+| `spacing`   | `py` | `padding-top`, `padding-bottom` | [`spacing`](/customization/default-theme/?expand-path=$.spacing) |
 
 
-*Certaines personnes trouvent le raccourci de prop déroutant, vous pouvez utiliser la version complète si vous préférez :*
+*Some people find the prop shorthand confusing, you can use the full version if you prefer:*
 
 ```diff
 -<Box pt={2} />

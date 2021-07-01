@@ -1,5 +1,5 @@
 ---
-title: Composant React Drawer
+title: React Drawer component
 components: Drawer, SwipeableDrawer
 ---
 
@@ -7,29 +7,29 @@ components: Drawer, SwipeableDrawer
 
 <p class="description">Les tiroirs de navigation permettent d'accéder aux destinations de votre application. Les feuilles latérales sont des surfaces contenant du contenu supplémentaire ancré au bord gauche ou droit de l'écran.</p>
 
-[Les tiroirs de navigation](https://material.io/design/components/navigation-drawer.html) (ou "barres latérales") fournissent un accès aux destinations et aux fonctionnalités d'applications, telles que le changement de comptes. Ils peuvent être : soit affichés en permanence à l'écran, soit contrôlés par une une icône de menu de navigation
+[Navigation drawers](https://material.io/design/components/navigation-drawer.html) (or "sidebars") provide access to destinations and app functionality, such as switching accounts. They can either be permanently on-screen or controlled by a navigation menu icon.
 
-[Side sheets](https://material.io/design/components/sheets-side.html) sont des surfaces supplémentaires principalement utilisées pour les tablettes et les ordinateurs.
+[Side sheets](https://material.io/design/components/sheets-side.html) are supplementary surfaces primarily used on tablet and desktop.
 
 ## Tiroir temporaire
 
-Les drawers de navigation temporaire peuvent activer l'ouverture ou la fermeture. Fermés par défaut, le drawer s'ouvre temporairement au dessus de tout autre contenu jusqu'à qu'une section soit sélectionnée.
+Temporary navigation drawers can toggle open or closed. Closed by default, the drawer opens temporarily above all other content until a section is selected.
 
-Le drawer peut être annulé en cliquant ailleurs dans la zone sombre ou en appuyant sur la touche Échap. Il se ferme quand un élément est sélectionné et est géré par le contrôle de la propriété `open`.
+The Drawer can be cancelled by clicking the overlay or pressing the Esc key. It closes when an item is selected, handled by controlling the `open` prop.
 
 {{"demo": "pages/components/drawers/TemporaryDrawer.js"}}
 
-### Swipeable (glissable)
+### Swipeable
 
 You can make the drawer swipeable with the `SwipeableDrawer` component.
 
-Ce composant est livré avec une charge utile gzip de 2 kB. Certains appareils mobiles bas de gamme ne peuvent pas suivre les doigts à 60 FPS. Vous pouvez utiliser la propriété `disableBackdropTransition` pour aider.
+This component comes with a 2 kB gzipped payload overhead. Some low-end mobile devices won't be able to follow the fingers at 60 FPS. You can use the `disableBackdropTransition` property to help.
 
 {{"demo": "pages/components/drawers/SwipeableTemporaryDrawer.js"}}
 
-Les propriétés suivantes sont utilisées dans la documentation du site pour une utilisation optimale du composant:
+The following properties are used in this documentation website for optimal usability of the component:
 
-- iOS est hébergé sur des appareils haut de gamme. The performance will be good enough. The backdrop transition can be enabled without dropping frames.
+- iOS is hosted on high-end devices. The performance will be good enough. The backdrop transition can be enabled without dropping frames.
 - iOS has a "swipe to go back" feature that interferes with the discovery feature, so discovery has to be disabled.
 
 ```jsx
@@ -38,7 +38,7 @@ const iOS = process.browser && /iPad|iPhone|iPod/.test(navigator.userAgent);
 <SwipeableDrawer disableBackdropTransition={!iOS} disableDiscovery={iOS} />
 ```
 
-## Tiroir adaptatif
+## Responsive drawer
 
 The `Hidden` responsive helper component allows showing different types of drawer depending on the screen width. A `temporary` drawer is shown for small screens while a `permanent` drawer is shown for wider screens.
 
@@ -66,7 +66,7 @@ The mini variant is recommended for apps sections that need quick selection acce
 
 ## Tiroir permanent
 
-Les tiroirs de navigation permanents sont toujours visibles et épinglés au bord gauche, à la même altitude que le contenu ou l'arrière-plan. Ils ne peuvent pas être fermés.
+Permanent navigation drawers are always visible and pinned to the left edge, at the same elevation as the content or background. They cannot be closed.
 
 Les tiroirs de navigation permanents sont les **valeurs par défaut recommandées pour le bureau**.
 

@@ -55,18 +55,12 @@ export default function PlainCssButton() {
 **Note:** JSS injects its styles at the bottom of the `<head>`. If you don't want to mark style attributes with **!important**, you need to change [the CSS injection order](/styles/advanced/#css-injection-order), as in the demo:
 
 ```jsx
-import { create } from 'jss';
-import { StylesProvider, jssPreset } from '@material-ui/core/styles';
-import rtl from 'jss-rtl'
+*/}
+</StylesProvider>
+      import { StylesProvider } from '@material-ui/core/styles';
 
-const jss = create({
-  plugins: [...jssPreset().plugins, rtl()],
-});
-
-export default function App() {
-  return (
-    <StylesProvider jss={jss}>
-      ...
+<StylesProvider injectFirst>
+  {/* Your component tree.
       */}
 </StylesProvider>
       Now, you can override Material-UI's styles. Styled components can override Material-UI's styles.
@@ -154,18 +148,12 @@ export default function GlobalCssButton() {
 **Note:** JSS injects its styles at the bottom of the `<head>`. If you don't want to mark style attributes with **!important**, you need to change [the CSS injection order](/styles/advanced/#css-injection-order), as in the demo:
 
 ```jsx
-import { create } from 'jss';
-import { StylesProvider, jssPreset } from '@material-ui/core/styles';
-import rtl from 'jss-rtl'
+*/}
+</StylesProvider>
+      import { StylesProvider } from '@material-ui/core/styles';
 
-const jss = create({
-  plugins: [...jssPreset().plugins, rtl()],
-});
-
-export default function App() {
-  return (
-    <StylesProvider jss={jss}>
-      ...
+<StylesProvider injectFirst>
+  {/* Your component tree.
       */}
 </StylesProvider>
       Now, you can override Material-UI's styles. Styled components can override Material-UI's styles.
@@ -489,18 +477,12 @@ export default function EmotionCSS() {
 **Note:** JSS injects its styles at the bottom of the `<head>`. If you don't want to mark style attributes with **!important**, you need to change [the CSS injection order](/styles/advanced/#css-injection-order), as in the demo:
 
 ```jsx
-import { create } from 'jss';
-import { StylesProvider, jssPreset } from '@material-ui/core/styles';
-import rtl from 'jss-rtl'
+*/}
+</StylesProvider>
+      import { StylesProvider } from '@material-ui/core/styles';
 
-const jss = create({
-  plugins: [...jssPreset().plugins, rtl()],
-});
-
-export default function App() {
-  return (
-    <StylesProvider jss={jss}>
-      ...
+<StylesProvider injectFirst>
+  {/* Your component tree.
       */}
 </StylesProvider>
       Now, you can override Material-UI's styles. Styled components can override Material-UI's styles.

@@ -1,5 +1,5 @@
 ---
-title: Composant React Checkbox
+title: React Checkbox component
 components: Checkbox, FormControl, FormGroup, FormLabel, FormControlLabel
 ---
 

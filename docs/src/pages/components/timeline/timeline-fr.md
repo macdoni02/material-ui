@@ -1,5 +1,5 @@
 ---
-title: Composant React Timeline
+title: React Timeline component
 components: Timeline, TimelineItem, TimelineSeparator, TimelineDot, TimelineConnector, TimelineContent, TimelineOppositeContent
 ---
 

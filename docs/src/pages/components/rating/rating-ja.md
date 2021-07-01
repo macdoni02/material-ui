@@ -1,5 +1,5 @@
 ---
-title: Reactレーティングコンポーネント
+title: React Rating component
 components: レート
 ---
 

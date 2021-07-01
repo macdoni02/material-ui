@@ -1,10 +1,10 @@
 # Shadows
 
-<p class="description">Box-shadow ユーティリティを使用して要素に影を追加または削除します。</p>
+<p class="description">Add or remove shadows to elements with box-shadow utilities.</p>
 
 ## 例
 
-Elevationヘルパーを使用すると、 <strong x-id="1">z-axis</strong> に沿った2つのサーフェス間の相対的な影の濃度または距離を制御できます。 デフォルトでは、濃度25です。
+The helpers allow you to control relative depth, or distance, between two surfaces along the z-axis. By default, there is 25 elevation levels.
 
 {{"demo": "pages/system/shadows/Demo.js", "defaultCodeOpen": false, "bg": true}}
 

@@ -29,7 +29,7 @@ const theme = createTheme({
 
 ### Supported locales
 
-| Locale                  | BCP 47 language tag | Nom importé |
+| Locale                  | BCP 47 language tag | Import name |
 |:----------------------- |:------------------- |:----------- |
 | Armenian                | hy-AM               | `hyAM`      |
 | Azerbaijani             | az-AZ               | `azAZ`      |

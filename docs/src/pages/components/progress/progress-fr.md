@@ -16,11 +16,11 @@ Lorsque vous affichez les progrès d'une séquence de processus, indiquez le pro
 
 ## Circular
 
-### Circulaire indéterminée
+### Circular indeterminate
 
 {{"demo": "pages/components/progress/CircularIndeterminate.js"}}
 
-### Circulaire déterminée
+### Circular determinate
 
 {{"demo": "pages/components/progress/CircularDeterminate.js"}}
 
@@ -32,13 +32,13 @@ Lorsque vous affichez les progrès d'une séquence de processus, indiquez le pro
 
 {{"demo": "pages/components/progress/CircularWithValueLabel.js"}}
 
-## Barre de progression linéaire
+## Linear
 
-### Linéaire indéterminée
+### Linear indeterminate
 
 {{"demo": "pages/components/progress/LinearIndeterminate.js"}}
 
-### Linéaire déterminée
+### Linear determinate
 
 {{"demo": "pages/components/progress/LinearDeterminate.js"}}
 
@@ -71,7 +71,7 @@ function Progress(props) {
 }
 ```
 
-## Barres de progression personnalisée
+## Customized progress
 
 Here are some examples of customizing the component. Vous pouvez en savoir plus dans la [page de documentation des overrides](/customization/components/).
 

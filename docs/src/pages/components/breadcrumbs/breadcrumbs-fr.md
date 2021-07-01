@@ -1,5 +1,5 @@
 ---
-title: Composant React Breadcrumbs
+title: React Breadcrumbs component
 components: Breadcrumbs, Link, Typography
 ---
 

@@ -28,7 +28,7 @@ It's meant to be an improved version of the "react-select" and "downshift" packa
 
 ### Выбор страны
 
-Выберите одну из 248 стран.
+Choose one of the 248 countries.
 
 {{"demo": "pages/components/autocomplete/CountrySelect.js"}}
 
@@ -78,7 +78,7 @@ If you intend to use this mode for a [combo box](#combo-box) like experience (an
 
 ## `useAutocomplete`
 
-Для продвинутой кастомизации используйте хук `useAutocomplete()`. It accepts almost the same options as the Autocomplete component minus all the props related to the rendering of JSX. The Autocomplete component uses this hook internally.
+For advanced customization use cases, we expose a headless `useAutocomplete()` hook. It accepts almost the same options as the Autocomplete component minus all the props related to the rendering of JSX. The Autocomplete component uses this hook internally.
 
 ```jsx
 import useAutocomplete from '@material-ui/lab/useAutocomplete';
@@ -146,11 +146,11 @@ The `renderInput` prop allows you to customize the rendered input. The first arg
 
 ### GitHub's picker
 
-Эта демо-версия показывает label picker с сайта GitHub:
+This demo reproduces the GitHub's label picker:
 
 {{"demo": "pages/components/autocomplete/GitHubLabel.js"}}
 
-Перейдите в секцию [Кастомизированный хук](#customized-hook) для примера кастомизации хука ` useAutocomplete` вместо компонента
+Head to the [Customized hook](#customized-hook) section for a customization example with the `useAutocomplete` hook instead of the component.
 
 ## Основные моменты
 
@@ -226,7 +226,6 @@ By default, the component disable the **autocomplete** feature (remembering what
 
 - Name the input without leaking any information the browser can use. e.g. `id="field1"` instead of `id="country"`. If you leave the id empty, the component uses a random id.
 - Set `autoComplete="new-password"`: jsx Set `autoComplete="new-password": 
-jsx` Set `autoComplete="new-password": 
 jsx` Set `autoComplete="new-password": 
     jsx` Set `autoComplete="new-password": 
         jsx` 
