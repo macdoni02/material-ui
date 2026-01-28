@@ -82,11 +82,11 @@
     "jss": "^10.0.3",
     "jss-plugin-template": "^10.0.3",
     "jss-rtl": "^0.3.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.23",
     "lz-string": "^1.4.4",
     "markdown-to-jsx": "^7.0.0",
     "material-ui-popup-state": "^1.4.1",
-    "next": "^11.0.1",
+    "next": "^15.5.10",
     "notistack": "^1.0.0",
     "nprogress": "^0.2.0",
     "postcss": "^8.0.6",
@@ -118,7 +118,7 @@
     "stylis-plugin-rtl": "^2.0.2",
     "stylis-plugin-rtl-sc": "npm:stylis-plugin-rtl@^1.1.0",
     "webfontloader": "^1.6.28",
-    "webpack-bundle-analyzer": "^4.1.0"
+    "webpack-bundle-analyzer": "^5.2.0"
   },
   "devDependencies": {
     "@babel/plugin-transform-react-constant-elements": "^7.8.3",
